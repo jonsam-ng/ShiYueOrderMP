@@ -1,0 +1,1 @@
+<view class="cart-content"><view class="cart-inner-wrapper"><view class="cart-list-toggle"><view class="cart-list-toggle-inner"><uni-badge class="cart-badge" vue-id="bd8651fc-1" text="2" type="error" bind:__l="__l"></uni-badge></view></view><view class="cart-price"><text>{{"￥"+price}}</text></view><view class="cart-order"><text>去结算</text></view></view></view>

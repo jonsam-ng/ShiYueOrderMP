@@ -1,12 +1,60 @@
 {
 	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
 		{
-			"path": "pages/index/index",
+			"path": "pages/home/home",
 			"style": {
-				"navigationBarTitleText": "uni-app"
+				"navigationBarTitleText": "首页"
+			}
+		},
+		{
+			"path": "pages/menu/menu",
+			"style": {
+				"navigationBarTitleText": "点餐"
+			}
+		},
+		{
+			"path": "pages/order/order",
+			"style": {
+				"navigationBarTitleText": "订单"
+			}
+		},
+		{
+			"path": "pages/me/me",
+			"style": {
+				"navigationBarTitleText": "我的"
 			}
 		}
 	],
+	"tabBar": {
+		"backgroundColor": "#FFFFFF",
+		"selectedColor": "#A31344",
+		"color": "#DDDDDD",
+		"list": [{
+				"text": "首页",
+				"iconPath": "/static/image/tab/home.png",
+				"selectedIconPath": "/static/image/tab/home_select.png",
+				"pagePath": "pages/home/home"
+			},
+			{
+				"text": "点餐",
+				"iconPath": "/static/image/tab/menu.png",
+				"selectedIconPath": "/static/image/tab/menu_select.png",
+				"pagePath": "pages/menu/menu"
+			},
+			{
+				"text": "订单",
+				"iconPath": "/static/image/tab/order.png",
+				"selectedIconPath": "/static/image/tab/order_select.png",
+				"pagePath": "pages/order/order"
+			},
+			{
+				"text": "我的",
+				"iconPath": "/static/image/tab/me.png",
+				"selectedIconPath": "/static/image/tab/me_select.png",
+				"pagePath": "pages/me/me"
+			}
+		]
+	},
 	"globalStyle": {
 		"navigationBarTextStyle": "black",
 		"navigationBarTitleText": "uni-app",

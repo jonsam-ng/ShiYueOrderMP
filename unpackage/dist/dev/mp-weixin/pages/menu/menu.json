@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "点餐",
+  "usingComponents": {
+    "cart": "/components/cart/cart",
+    "category": "/components/qiyue-category/qiyue-category"
+  }
+}
